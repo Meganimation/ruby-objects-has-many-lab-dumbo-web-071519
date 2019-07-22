@@ -2,7 +2,7 @@ class Artist
   
   attr_accessor :name 
   
-  initialize
+  initialize(name)
   @name = name 
   @@games = []
   

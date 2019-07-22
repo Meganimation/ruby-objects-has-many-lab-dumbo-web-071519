@@ -29,4 +29,3 @@ def self.post_count
   end
 end
 
-end

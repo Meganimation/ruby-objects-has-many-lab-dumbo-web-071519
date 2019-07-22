@@ -7,16 +7,10 @@ class Post
   def initialize(title, author)
   @title = title 
   @author = author
-  @@all = []
+
 end
 
-    def self.find_by_name(author)
- if   @@all.find{|person| person.name == author}
-  author
-else  nil
-  end
-end
-
+  
 
 def self.all 
   @@all

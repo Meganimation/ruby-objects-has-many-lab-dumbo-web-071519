@@ -14,7 +14,7 @@ end
 end
 
  def add_song(content)
-    Song.new(content, self)
+    Song.artist = self
   end
 
 

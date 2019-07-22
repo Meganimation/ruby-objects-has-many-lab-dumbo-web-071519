@@ -17,7 +17,9 @@ else  nil
 end
 
 
-
+def self.all 
+  
+end
 
 
 def all

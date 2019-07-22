@@ -1,11 +1,11 @@
 class Post 
   
   
-  
+  @@all = []
   
  def  initialize :title
   
-  @@all = []
+@title = title
   
 end 
 

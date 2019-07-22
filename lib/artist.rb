@@ -12,7 +12,9 @@ def add_song(song)
      song.artist = self
 end
 
-
+def self.all 
+  
+end
 
  def song
      @songs

@@ -17,7 +17,7 @@ end
    end
    
    def author_name(author)
-     if @@all include ? author 
+     if @@all include? author 
        return author 
      else nil 
      end 

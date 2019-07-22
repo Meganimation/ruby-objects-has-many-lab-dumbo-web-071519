@@ -8,8 +8,8 @@ def initialize(name)
 end 
 
 def add_song
-  @@song << game
-     game.console = self
+  @@song << song
+     song.artist = self
 end
 
 end

@@ -5,6 +5,8 @@ class Song
   @name = name
   @@all = []
 end
+
+
  
  
 end

@@ -13,6 +13,17 @@ def add_song(song)
      song.artist = self
 end
 
+
+def number_of_tweets 
+self.all_likes.count
+end
+
+
+
+
+
+
+
 def self.all 
   @@all
 end

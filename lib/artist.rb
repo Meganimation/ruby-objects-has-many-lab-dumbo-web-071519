@@ -3,8 +3,8 @@ class Artist
   attr_accessor :name 
   
   initialize(name)
-  name = name 
-  games = []
+  @name = name 
+  @@games = []
   
   def add_song(song)
      @@songs << song

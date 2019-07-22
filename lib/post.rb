@@ -6,7 +6,7 @@ class Post
   
   def initialize(title)
   @title = title 
-  @@all << author
+  @@all = []
 end
 
     def self.find_by_name(author)

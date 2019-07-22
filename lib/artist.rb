@@ -5,6 +5,9 @@ class Artist
   initialized(name)
   
   
+  def add_song(game)
+     @@games << game
+     game.console = self
   
    def artist_name
     self.artist.name

@@ -15,5 +15,9 @@ end
    def artist_name
     self.artist.name
   end
+  
+  def songs
+    @@songs
+  end
 end
 end

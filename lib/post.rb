@@ -20,10 +20,11 @@ end
 def self.all 
   @@all
 end
- def add_game_by_name(name, genre)
-      game = Game.new(name, genre)
-      @games << game
-      game.console = self
+
+ def add_post_by_title(title)
+      title = Post.new(title)
+      @@all << post
+      post.author = self
      end
 
 

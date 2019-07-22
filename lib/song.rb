@@ -17,10 +17,10 @@ class Song
      @@all 
    end
    
-   def self.find_by_name(name)
+   def self.find_by_name(artist_name)
  if   @@all.find{|person| person.name == name}
   name 
-else  "There's nobody with that name here m8"
+else  nil
   end
 end
  

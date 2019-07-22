@@ -8,7 +8,7 @@ end
 
   def add_song(song)
      @@all << song
-     game.console = self
+     song.console = self
  
  
 end

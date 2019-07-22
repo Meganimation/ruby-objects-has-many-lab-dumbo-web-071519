@@ -11,7 +11,7 @@ def self.all
   @@all
 end 
 
-def add_post(post)
+def add_post_by_title(post)
   post.author = self 
 end
 

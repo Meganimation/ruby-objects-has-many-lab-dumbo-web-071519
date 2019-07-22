@@ -12,15 +12,9 @@ def add_song(song)
   @songs << song
      song.artist = self
 end
-def all_songs
- songs_from_this =  Like.all.select do  |like|
-like.user == self 
-  end 
-  end
 
-def number_of_songs
-self.all_songs.count
-end
+
+
 
 
 

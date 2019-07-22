@@ -1,5 +1,10 @@
-self Author 
+class Author 
 
 attr_accessor :name 
 
-initialized(name)
+def initialized(name)
+  
+end
+
+
+end

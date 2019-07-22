@@ -8,7 +8,8 @@ end
 
   def add_song(song)
      @@all << song
-     song.console = self
+     song.artist = self
+   end
  
  
 end

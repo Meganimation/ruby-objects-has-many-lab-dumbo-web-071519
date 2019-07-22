@@ -8,19 +8,9 @@ def initialize(name)
 end 
 
 
-end
-
-
   def add_song(song)
      @@songs << song
      song.artist = self
+     
+   end
    
-  
-   def artist_name
-    self.artist.name
-  end
-  
-  def songs
-    @@songs
-  end
-end

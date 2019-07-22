@@ -9,4 +9,6 @@ class Post
   
 end 
 
+
+
 end 

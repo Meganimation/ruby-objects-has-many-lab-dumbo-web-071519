@@ -7,9 +7,9 @@ class Post
   @title = title 
 end
 
-    def self.find_by_name(artist_name)
- if   @@all.find{|person| person.name == artist_name}
-  artist_name 
+    def self.find_by_name(author)
+ if   @@all.find{|person| person.name == author}
+  author
 else  nil
   end
 end

@@ -13,7 +13,7 @@ def add_song(song)
 end
 
 def self.songs
-  
+  @@songs
 end
 
  def song

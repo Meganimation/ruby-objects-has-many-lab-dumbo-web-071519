@@ -17,7 +17,12 @@ class Song
      @@all 
    end
    
-   
+   def self.find_by_name(name)
+ if   @@all.find{|person| person.name == name}
+  name 
+else  "There's nobody with that name here m8"
+  end
+end
  
  
 end

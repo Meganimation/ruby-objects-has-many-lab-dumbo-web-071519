@@ -23,5 +23,4 @@ end
 
 end
    
-   
-   puts Artist.songs.count
+  

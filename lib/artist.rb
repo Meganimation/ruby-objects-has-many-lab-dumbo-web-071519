@@ -17,24 +17,16 @@ def add_song(song)
      song.artist = self
 end
 
-def self.song_count
-  p Artist.all.count
-end
-
-
-
-
-
-
-
-
-
 
 
  def song
      @songs
      end
+end
 
+
+def self.song_count
+  p Artist.all.count
 end
    
   

@@ -6,7 +6,7 @@ class Artist
   
   
   def add_song(song)
-     @@games << game
+     @@songs << song
      game.console = self
   
    def artist_name

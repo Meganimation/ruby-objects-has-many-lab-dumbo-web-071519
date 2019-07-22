@@ -2,13 +2,17 @@ class Post
   
   attr_accessor :title
   
-@@all = []
+
   
   def initialize(title)
   @title = title 
 
 end
 
+def posts
+   Posts.all.select do |post|
+    post.author == self
+end
   
 
 def self.all 

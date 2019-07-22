@@ -14,8 +14,8 @@ def add_song(song)
 end
 
 
-def number_of_tweets 
-self.all_likes.count
+def number_of_songs
+self.all_songs.count
 end
 
 

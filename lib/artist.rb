@@ -14,7 +14,7 @@ def add_song(song)
 end
 
 def self.song_count
-  
+  p Artist.all.count
 end
 
 

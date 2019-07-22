@@ -15,4 +15,12 @@ end
 else  nil
   end
 end
+
+
+
+
+
+def @@all
+  
+end
 end

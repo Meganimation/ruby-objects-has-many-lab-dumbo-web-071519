@@ -3,7 +3,8 @@ class Artist
   attr_accessible :name 
   
   initialized(name)
-  
+  name = :name 
+  games = []
   
   def add_song(song)
      @@songs << song

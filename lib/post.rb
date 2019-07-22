@@ -1,6 +1,8 @@
 class Post 
   
   
-  initialized with an argument of a title
+  initialize(title)
+  @title = title 
+end
   
 end

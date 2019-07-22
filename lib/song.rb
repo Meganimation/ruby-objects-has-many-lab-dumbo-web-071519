@@ -18,14 +18,10 @@ class Song
      @@all 
    end
    
-   #below one isnt correct answer
-   def self.find_by_name(artist_name)
- if   @@all.find{|person| person.name == artist_name}
-  artist_name 
-else  nil
+  def artist_name
+    artist.name if artist
   end
 end
- 
  
  
  

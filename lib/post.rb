@@ -4,7 +4,7 @@ class Post
   
 @@all = []
   
-  def initialize(title)
+  def initialize(title, author)
   @title = title 
   @@all = []
 end

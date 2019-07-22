@@ -2,8 +2,8 @@ class Post
   
   
   def initialize(title)
-
-  @@all << title
+  @title = title 
+  
 end
 
   

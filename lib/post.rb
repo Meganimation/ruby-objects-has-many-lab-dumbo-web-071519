@@ -16,12 +16,7 @@ end
      @@all 
    end
    
-   def author_name(author)
-     if @@all include ? author.name 
-       return author 
-     else nil 
-     end 
-   end
+
 
 
 

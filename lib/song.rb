@@ -6,7 +6,9 @@ class Song
   @@all = []
 end
 
-
+  def add_game(game)
+     @@games << game
+     game.console = self
  
  
 end

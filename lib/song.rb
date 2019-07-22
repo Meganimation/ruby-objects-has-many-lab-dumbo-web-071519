@@ -20,7 +20,7 @@ class Song
    #below one isnt correct answer
    def self.find_by_name(artist_name)
  if   @@all.find{|person| person.name == artist_name}
-  name 
+  artist_name 
 else  nil
   end
 end
